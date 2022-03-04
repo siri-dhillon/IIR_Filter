@@ -1,0 +1,36 @@
+# Compile of i2s_audio_synchronizer.vhd was successful.
+# Compile of i2s_audio_interface.vhd was successful.
+# Compile of i2s_audio_interface_testbench.vhd was successful with warnings.
+# 3 compiles, 0 failed with no errors.
+do run.do 
+# vsim -gui -onfinish stop -msgmode both -voptargs="+acc" work.i2s_audio_interface_testbench 
+# Start time: 18:12:17 on Mar 03,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading std.env(body)
+# Loading work.i2s_audio_interface_testbench(sim)
+# Loading work.i2s_audio_interface(rtl)
+# Loading work.i2s_audio_syncronizer(rtl)
+add wave -position insertpoint sim:/i2s_audio_interface_testbench/*
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/skd24/Desktop/IIR_Lab2C/i2s_audio_interface/wave.do
+# Break key hit
+# Break in Process lr_synchronizer at C:/Users/skd24/Desktop/IIR_Lab2C/i2s_audio_interface/i2s_audio_synchronizer.vhd line 102
+do run.do wave
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of Adder32.vhd failed with 1 errors.
+# Compile of fulladder.vhd was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of Adder32.vhd failed with 1 errors.
+# Compile of i2s_audio_synchronizer.vhd was successful.
+# Compile of i2s_audio_interface.vhd was successful.
+# Compile of i2s_audio_interface_testbench.vhd was successful with warnings.
+# Compile of Adder32.vhd failed with 6 errors.
+# Compile of fulladder.vhd was successful.
+# 5 compiles, 1 failed with 6 errors.
+# Compile of Adder32.vhd failed with 3 errors.
+# Compile of Adder32.vhd was successful.
